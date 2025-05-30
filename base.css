@@ -194,6 +194,29 @@ footer::before {
     opacity: 0.8;
 }
 
+.footer-bottom p {
+    margin-bottom: 1rem;
+}
+
+/* Created By Section */
+.created-by {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(227, 196, 145, 0.1);
+}
+
+.created-by p {
+    font-size: 0.9rem;
+    color: rgb(227, 196, 145);
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.created-by strong {
+    color: rgb(227, 196, 145);
+    font-weight: 600;
+}
+
 /* Responsive Design - Base */
 @media (max-width: 768px) {
     .nav-container {
@@ -242,6 +265,10 @@ footer::before {
         text-align: center;
         gap: 2rem;
     }
+    
+    .created-by p {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -269,5 +296,10 @@ footer::before {
     .cta-button {
         padding: 14px 24px;
         font-size: 1rem;
+    }
+    
+    .created-by p {
+        font-size: 0.75rem;
+        line-height: 1.4;
     }
 }
